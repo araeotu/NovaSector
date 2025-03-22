@@ -87,3 +87,13 @@
 	)
 	result = /obj/item/food/stinky_tofu
 	category = CAT_CHINESE
+
+/datum/crafting_recipe/food/dumpling
+	name = "饺子"
+	reqs = list(
+		/obj/item/food/doughslice = 1,
+		/obj/item/food/meatball = 1,
+		/obj/item/food/grown/corn = 1
+	)
+	result = /obj/item/food/dumpling
+	category = CAT_MARTIAN
